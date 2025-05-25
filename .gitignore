@@ -1,0 +1,21 @@
+# Ignore all GeoTIFF and raster files
+*.tif
+*.tiff
+*.img
+
+# Ignore geopackage and vector data
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Ignore your data folder (if it contains large files)
+data/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore zip files
+*.zip
